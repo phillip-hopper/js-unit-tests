@@ -1,0 +1,29 @@
+{
+  "name": "js-unit-tests",
+  "version": "0.0.1",
+  "main": "none",
+  "private": false,
+  "scripts": {
+    "test": "node_modules/.bin/karma start",
+    "test-chrome": "karma start --browsers Chrome",
+    "test-firefox": "karma start --browsers Firefox"
+  },
+  "dependencies": {
+    "less": "^1.7.0",
+    "less-plugin-clean-css": "^1.5.0",
+    "typescript": "^1.8.0",
+    "uglify-js": "^2.6.9",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.3",
+    "jasmine-jquery": "^2.1.1",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "phantomjs-prebuilt": "^2.1.14"
+  }
+}
